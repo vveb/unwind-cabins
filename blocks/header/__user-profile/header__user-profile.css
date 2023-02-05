@@ -1,0 +1,30 @@
+.header__user-profile {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  min-width: 48px;
+  height: 48px;
+  background-color: #f2faf9;
+  border: 1px solid #3f3f3f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* transition: background-color 1s; */
+  background-image: url(../../../images/profile-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 19.5px 19.5px;
+  object-fit: cover;
+  transition: background-image .4s ease, background-color .3s ease-in;
+}
+
+.header__user-profile:hover {
+  cursor: pointer;
+  background-color: #000000bf;
+  background-image: url(../../../images/profile-icon-invert.svg);
+}

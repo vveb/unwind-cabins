@@ -1,0 +1,12 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__user-profile/header__user-profile.css');
